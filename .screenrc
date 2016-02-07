@@ -1,0 +1,6 @@
+hardstatus alwayslastline '%{= G}[%= %{= w}%?%-Lw%?%{= R}%n*%f %t%?%{= R}(%u)%?%{= w}%+Lw%?%= %{= g}][ %{W}%c:%s %{g}]'
+#hardstatus alwayslastline '%{= G}[%= %{= w}%?%-Lw%?%{= R}%n*%f %t%?%{= R}(%u)%?%{= w}%+Lw%?%= %{= g}][ %{y}Load: %l %{g}][%{B}%Y-%m-%d %{W}%c:%s %{g}]'
+startup_message off
+termcapinfo xterm* ti@:te@
+vbell off
+term xterm-256color
