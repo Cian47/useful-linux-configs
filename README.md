@@ -2,14 +2,9 @@
 Some config files that might be useful after wiping the system
 
 
-Folders:
+### Folders:
 
---- .screenrc / .bashrc ---
-
-~
-
-
-
---- Preferences.sublime-settings ---
-
-~/.config/sublime-text-2/Packages/Default/
+1. .screenrc / .bashrc 
+..* ~
+2. Preferences.sublime-settings 
+..* ~/.config/sublime-text-2/Packages/Default/
