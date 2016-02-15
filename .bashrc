@@ -14,3 +14,7 @@ alias xampp='sudo /opt/lampp/lampp'
 alias uu='pacman -Syyu'
 PS1='[\u@\h \W]\$ '
 export CLASSPATH=$CLASSPATH:/home/kevin/Desktop/JUSTCRAP/tinyos_opt_cip/opt/support/sdk/java
+
+[ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
+
+export PROMPT_COMMAND="dbus-send --type=method_call --session --dest=net.launchpad.pantheon-terminal /net/launchpad/pantheon_terminal org.pantheon.terminal.ProcessFinished string:$PANTHEON_TERMINAL_ID string:"$(history 1 | cut -c 8-)" >/dev/null 2>&1;"
