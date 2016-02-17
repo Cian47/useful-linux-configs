@@ -13,7 +13,6 @@ alias xampp='sudo /opt/lampp/lampp'
 
 alias uu='pacman -Syyu'
 PS1='[\u@\h \W]\$ '
-export CLASSPATH=$CLASSPATH:/home/kevin/Desktop/JUSTCRAP/tinyos_opt_cip/opt/support/sdk/java
 
 [ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 
