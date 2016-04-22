@@ -4,5 +4,6 @@
     "tab_size": 4,
     "translate_tabs_to_spaces": true,
     "shift_tab_unindent": true,
-    "draw_white_space": "all"
+    "draw_white_space": "all",
+    "auto_match_enabled": false
 }
