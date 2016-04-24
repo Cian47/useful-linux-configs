@@ -88,4 +88,4 @@ alias clear='echo -e -n "\0033\0143"'
 alias xampp='sudo /opt/lampp/lampp'
 
 alias uu='pacman -Syyu'
-alias yuu='yaourt -Syu --aur'
+alias yy='yaourt -Syu --aur'
