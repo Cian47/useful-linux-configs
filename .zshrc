@@ -90,3 +90,5 @@ alias xampp='sudo /opt/lampp/lampp'
 alias uu='pacman -Syyu'
 alias yy='yaourt -Syu --aur'
 alias paste='tee /tmp/paste && cat /tmp/paste | nc virtualhacker.net 9999'
+
+alias fixpermissions='find . -type f -exec chmod 644 {} \; ; find . -type d -exec chmod 755 {} \; ;'
